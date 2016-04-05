@@ -1,5 +1,5 @@
 function Bear(type) {
-  this.type = type
+  this.type = type || 'any'
 }
 
 Bear.prototype.growl = function(says) {
